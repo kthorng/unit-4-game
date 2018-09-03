@@ -92,7 +92,7 @@ $('.crystal-image').on('click', function() {
     if (counter === targetNumber) {
         wins++;
         startGame();
-        alert('Impossible!  Whats this magic you use to defeat me?  Your power levels are unreadable.');
+        alert('Impossible!  What is this magic you use to defeat me?  Your power levels are unreadable.');
         $('#number').text(targetNumber)
         var wish = prompt('What do you wish?');
         alert(wish + ' ' + 'has been granted...');
@@ -108,7 +108,7 @@ $('.crystal-image').on('click', function() {
     else if (counter <= -1) {
         losses++;
         startGame();
-        alert('No no, we can\'t go below zero.  You\'re a rebelious little onemptied.');
+        alert('No no, we can\'t go below zero.  You\'re a rebellious little one.');
         $('#number').text(targetNumber)
     }
 
