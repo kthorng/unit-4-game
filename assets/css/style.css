@@ -1,5 +1,52 @@
+h1 {
+font-size: 45px;
+display: table;
+color: white;
+font-family: 'Monoton', cursive;
+}
+h2 {
+  font-size: 30px;
+  color: gray;
+  display: table;
+  font-family: 'Bangers', cursive;
+}
+p {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Amatic SC', cursive;
+}
 .crystal-image {
-    width: 200px;
-    height: 200px;
-    float: left;
+    width: 150px;
+    height: 150px;
   }
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row-2 {
+  margin-left: 100px;
+}
+#total {
+  clear: both;
+  display: table;
+}
+body {
+  background-image: url(../images/drago.jpg);
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.green {
+  background-color: lightgrey;
+  width: 600px;
+  border: 15px solid green;
+  padding: 15px;
+  margin: 15px;
+  clear: both;
+}

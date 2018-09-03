@@ -7,33 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bangers|Monoton" rel="stylesheet">
 </head>
-<body>
+<body background=''>
 
     <!-- our h1 title -->
-    <h1>Crystals Collector</h1>
+    <h1>Dragon Ball Collectors</h1>
     
     <!-- our directions -->
-
+    <div class='green'>
+    <div id='directions'>
+        <p>*You have awaken Drago.</p>
+        <p>*If you wish Drago to grant you wishes, you will need to solve his puzzle.</p>
+        <p>*Each Dragon Ball presented to you has a number value attached to them, it is up to you to figure out what they are.</p>
+        <p>*Click on a Dragon Ball and your current score will either go up or down, be careful you can only win this game if you meet our Random number exactly.  Go over then you will need to try again.</p>
+        <p>*Also be advised, if you go below Zero... that is also a loss. Good Luck!</p>
+    </div>
+    </div>
     <!-- div for random number -->
+    <div class='green'>
     <h2>Number to Guess: <span id='number'></span></h2>
+    </div>
 
     <!-- div for wins and losses -->
+    <div class='green'>
+    <div id='score'>
     <h2>Wins: <span id='wins-text'></span></h2>
     <h2>Losses: <span id='losses-text'></span></h2>
-
+    </div>
+    </div>
     <!-- div for crystal images, can be button divs -->
-    <div id='container'>
-        <div id='crystal1'></div>
-        <div id='crystal2'></div>
-        <div id='crystal3'></div>
-        <div id='crystal4'></div>
-        <div id='crystal5'></div>
+    <div class='row'>
+        <div class='column'>
+            <div id='crystal1'></div>
+        </div>
+        <div class='column'>
+            <div id='crystal2'></div>
+        </div>
+        <div class='column'>
+            <div id='crystal3'></div>
+        </div>
+        <div class='column'>
+            <div id='crystal4'></div>
+        </div>
+    </div>
+    <div class='row-2'>
+        <div class='column'>
+            <div id='crystal5'></div>
+        </div>
+        <div class='column'>
+            <div id='crystal6'></div>
+        </div>
+        <div class='column'>
+            <div id='crystal7'></div>
+        </div>            
     </div>
 
     <!-- div for total score -->
-    <h2>Current: <span id='counter-text'></span></h2>
-
+    <div class='green'>
+    <div id='total'>
+    <h2>Your Current Total: <span id='counter-text'></span></h2>
+    </div>
+    </div>
 
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
